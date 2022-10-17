@@ -1,0 +1,18 @@
+
+<html>
+
+    <head>
+
+    </head>
+    <title>sent mail</title>
+    <body>
+        <h1>Contect</h1>
+
+        <form method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+    </body>
+
+</html>
